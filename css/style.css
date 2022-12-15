@@ -100,6 +100,13 @@ body {
   line-height: 18px;
   color: #333333;
 }
+.header_top_list_item_link:hover {
+  color: #ffbd54;
+}
+.header_top_list_item_link:active {
+  color: #ffbd54;
+  opacity: 0.6;
+}
 .calendar {
   display: flex;
   align-items: center;
@@ -523,6 +530,12 @@ section .content p {
   border-radius: 3px;
   cursor: pointer;
 }
+.content_btn1:hover {
+  background: #ffbd54cc;
+}
+.content_btn1:active {
+  background: #ffbd5499;
+}
 .content_btn2 {
   width: 241px;
   height: 50px;
@@ -536,6 +549,12 @@ section .content p {
   background: #333333;
   border-radius: 3px;
   cursor: pointer;
+}
+.content_btn2:hover {
+  background: #333333cc;
+}
+.content_btn2:active {
+  background: #33333399;
 }
 .content_btns_img {
   margin-right: 6px;
@@ -554,7 +573,6 @@ section .content p {
 .sobity_wrapper {
   display: flex;
   position: relative;
- 
 }
 .sobity_title {
   font-weight: 700;
@@ -594,17 +612,231 @@ section .content p {
   background: #333333;
   border-radius: 3px;
   border: none;
+  cursor: pointer;
 }
-.koppak{
+.sobity_btn:hover {
+  background: #333333cc;
+}
+.sobity_btn:active {
+  background: #33333399;
+}
+.koppak {
   position: absolute;
   top: -222px;
   right: -63px;
 }
 /********************** SOBITY SECTION END ***************************/
 
-
 /********************** USEFUL SECTION  *****************************/
+.useful {
+  padding-top: 216px;
+  padding-bottom: 262px;
+  background-color: var(--section-bg-color);
+}
+.useful_article {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.useful_title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #333333;
+  margin: 0;
+}
+.useful_card_wrapper {
+  display: flex;
+  column-gap: 18px;
+}
+.useful_card {
+  width: 305px;
+  border: 1px solid #e4e4e2;
+  border-radius: 5px;
+}
+.uscard_article {
+  padding-right: 22px;
+  padding-left: 22px;
+}
+.uscard_time {
+  display: flex;
+  justify-content: right;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+  margin-top: 21px;
+  margin-bottom: 2px;
+}
+.uscard_title {
+  width: 182px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.uscard_desc {
+  width: 244px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-bottom: 34px;
+}
+.uscard_link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+.uscard_link:hover {
+  color: #ffbd54;
+}
+.uscard_link:active {
+  color: #ffbd54;
+  opacity: 0.6;
+}
+.uscard_link_icon {
+  margin-right: 5px;
+}
+.useful_card_middle {
+  display: flex;
+}
+.uscard_middle_article {
+  width: 335px;
+  padding-top: 41px;
+  padding-right: 34px;
+  padding-left: 31px;
+  border: 1px solid #e4e4e2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #fff;
+  border-left: none;
+  padding-bottom: 40px;
+}
+.hashes {
+  display: flex;
+  width: 132px;
+  column-gap: 7px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3d9cea;
+  margin-bottom: 25px;
+}
+.uscard_middle_time {
+  margin-left: 125px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+.uscard_middle_title {
+  width: 193px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.uscard_midlle_desc {
+  width: 270px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-bottom: 20px;
+}
 /********************** USEFUL SECTION END *****************************/
 
+/********************** MAP SECTION  *************************************/
+
+.callback_wrapper {
+  display: flex;
+}
+
+.map {
+  max-width: 462px;
+  width: 100%;
+  height: 652px;
+  flex: 1;
+}
+.callback_right {
+  padding-top: 62px;
+  padding-left: 166px;
+  background-color: #333333;
+  flex: 1;
+  background-image: url(../images/map\(1\).png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 300px) calc(50% - 1px);
+}
+.callback_title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+.callback_desc {
+  width: 334px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.callback_form {
+  display: flex;
+  flex-direction: column;
+}
+.callback_input {
+  width: 375px;
+  height: 50px;
+  padding-left: 22px;
+  margin-bottom: 14px;
+}
+.callback_input:invalid {
+  border: 2px solid #ff0000;
+}
+.callback_input:valid {
+  border: 2px solid #008000;
+}
+.textarea {
+  width: 375px;
+  height: 165px;
+  padding-top: 17px;
+  padding-left: 22px;
+  background: #ffffff;
+  border-radius: 0px;
+  margin-bottom: 30px;
+}
+::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+.callback_btn {
+  width: 226px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  background: #ffbd54;
+  border-radius: 0px;
+  border: none;
+}
+.callback_btn:hover {
+  background: #ffbd54cc;
+  border-radius: 3px;
+}
+.callback_btn:active {
+  background: #ffbd5499;
+  border-radius: 3px;
+}
+/********************** MAP SECTION END *************************************/
 
 /********************** MAIN SECTION END **************/
