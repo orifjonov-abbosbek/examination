@@ -189,6 +189,13 @@ body {
   text-align: right;
   color: #333333;
 }
+.zadat_vapros:hover{
+  background-image: linear-gradient(transparent, transparent, #f4ffad, transparent);
+}
+.zadat_vapros:active{
+  opacity: 0.6;
+  background-image: linear-gradient(transparent, transparent, #f4ffad, transparent);
+}
 .img_box {
   position: relative;
 }
